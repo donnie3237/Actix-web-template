@@ -18,3 +18,8 @@ pub async fn echo(req_body: web::Json<RequestBody>) -> impl Responder {
 
     HttpResponse::Ok().body(response_body)
 }
+
+#[get("/eiei")]
+pub async fn eiei() -> impl Responder {
+    HttpResponse::Ok().body("Hello eiei path!")
+}
