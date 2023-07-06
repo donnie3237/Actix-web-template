@@ -1,0 +1,12 @@
+[[watch]]
+# Name of the watch command
+name = "Run application"
+
+# Paths to monitor for changes (relative to the watch.toml file)
+paths = ["src", "Cargo.toml"]
+
+# The command to execute when changes are detected
+command = "run"
+
+# Enable the watch mode to continuously monitor for changes
+enable = true
